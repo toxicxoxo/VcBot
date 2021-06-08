@@ -4,8 +4,8 @@ from pyrogram import Client
 from pyrogram.types import Message
 
 from helpers.admeme import get_administrators
-from config import ADMINS
-
+from config import Config
+ADMINS = Config.ADMINS
 
 def errors(func: Callable) -> Callable:
     async def decorator(client: Client, message: Message):
