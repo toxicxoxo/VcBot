@@ -1,4 +1,4 @@
-# Currently In Beta-Testing Stage.
+# Closed Project. 
 
 # Deploy on your own Risk.
 
